@@ -53,7 +53,7 @@ public class ChatRoomActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                String name = "Jake";
+                String name =          "Jake";
                 String message = textArea.getText().toString();
                 String key = msgRef.push().getKey();
                 Messages m = new Messages(name,message);

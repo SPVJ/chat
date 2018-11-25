@@ -8,23 +8,23 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="62dp"
+        android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Send"
+        android:background="@drawable/ic_send_black_24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98" />
+        app:layout_constraintVertical_bias="0.995" />
 
     <EditText
         android:id="@+id/msgArea"
-        android:layout_width="242dp"
+        android:layout_width="262dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
